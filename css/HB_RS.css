@@ -1,0 +1,41 @@
+h1 {color: #29567e;}
+
+
+
+
+button img {float: left;
+						margin-left: 10px;
+						}
+
+button h3 {float: right;
+					margin-right: 20px
+					}
+
+
+.jumbotron {padding-top: 75px;
+						padding-bottom: 75px;
+						margin: 0px;}
+
+.navbar, .navbar-default {z-index: 1030;
+											}
+	.nav {padding-bottom: 0px}
+
+
+.navbar-right {display: inline;
+							}
+
+.container {padding-top: 40px;
+						padding-bottom: 100px;}
+
+@media (max-width: 691px) {
+					.nav .navbar-nav .navbar-right {display: none;} 
+					h3 {float: right; margin-right: 20px; font-size: 8px; } 
+					button h3{font-size: 18px;}
+					.jumbotron {font-size: 18px;}}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
