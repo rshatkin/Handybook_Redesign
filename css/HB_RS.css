@@ -1,6 +1,14 @@
 h1 {color: #29567e;}
 
+section.one{float:left;
+						width: 50%;
+						padding-bottom: 50px;}
 
+section.two{float:right;
+						width: 50%;
+						padding-bottom: 50px;}
+
+body {background: linear-gradient(to bottom, #ecf1f2 0%,#d6dcde 100%);}
 
 
 button img {float: left;
@@ -11,17 +19,49 @@ button h3 {float: right;
 					margin-right: 20px
 					}
 
+footer section {background-color: #29567e;
+				z-index: -100
+				}
+
+footer h3 {color: white;}
+
+.Learn-more li {list-style: none;}
+
+
+footer a{color: #c5de62;}
+footer a:hover{color: #c5de62;}
+
+
+.thumbnail {
+						box-shadow: 0 6px 10px #777777;
+
+}
 
 .jumbotron {padding-top: 75px;
 						padding-bottom: 75px;
 						margin: 0px;}
 
-.navbar, .navbar-default {z-index: 1030;
-											}
+.navbar-inverse {z-index: 1030;
+								background-color: #29567e;
+								
+								}
+
+
+.navbar .navbar-inverse li a {color: white;}
+.navbar .navbar-inverse li a:link {color: white;}
+.navbar .navbar-inverse li a:visited {color: white;}
+.navbar .navbar-inverse li a:hover {color: black;}
+.navbar-inverse .navbar-brand {color:white}
+
+.dropdown li>a {color: black;}
+
 	.nav {padding-bottom: 0px}
+
+.navbar {box-shadow: 0 0 15px #777777;}	
 
 
 .navbar-right {display: inline;
+
 							}
 
 .container {padding-top: 40px;
@@ -29,10 +69,14 @@ button h3 {float: right;
 
 @media (max-width: 691px) {
 					.nav .navbar-nav .navbar-right {display: none;} 
-					h3 {float: right; margin-right: 20px; font-size: 8px; } 
-					button h3{font-size: 18px;}
+					button img {float: none;
+											}
+					button h3{font-size: 18px;
+									
+										text-align: center;}
 					.jumbotron {font-size: 18px;}}
 
+@media (max-width: 369px) {button h3{ font-size: 14px }}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) { ... }
