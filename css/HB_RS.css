@@ -1,12 +1,54 @@
-h1 {color: #29567e;}
 
-section.one{float:left;
-						width: 50%;
-						padding-bottom: 50px;}
 
-section.two{float:right;
-						width: 50%;
-						padding-bottom: 50px;}
+
+@font-face {
+    font-family: 'titillium_bdbold';
+    src: url('fonts/titillium/titillium-bold-webfont.eot');
+    src: url('fonts/titillium/titillium-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/titillium/titillium-bold-webfont.woff') format('woff'),
+         url('fonts/titillium/titillium-bold-webfont.ttf') format('truetype'),
+         url('fonts/titillium/titillium-bold-webfont.svg#titillium_bdbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'titilliumregular';
+    src: url('fonts/titillium/titillium-regular-webfont.eot');
+    src: url('fonts/titillium/titillium-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/titillium/titillium-regular-webfont.woff') format('woff'),
+         url('fonts/titillium/titillium-regular-webfont.ttf') format('truetype'),
+         url('fonts/titillium/titillium-regular-webfont.svg#titilliumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {font-family: 'titillium_bdbold';
+		color: #29567e;
+		padding-bottom: 40px;
+		text-align: center;
+		clear: both;}
+h2 {font-family: 'titillium_bdbold';
+		}
+h3 {font-family: 'titillium_bdbold';
+		}
+
+p{font-family: 'titilliumregular';
+		}
+
+#FB-btn	h3 {letter-spacing: .03em}
+
+.container {font-family: 'titilliumregular'}
+
+.jumbotron p{padding-top: 15px;
+					}
+
+
 
 body {background: linear-gradient(to bottom, #ecf1f2 0%,#d6dcde 100%);}
 
@@ -16,20 +58,18 @@ button img {float: left;
 						}
 
 button h3 {float: right;
-					margin-right: 20px
+					margin-right: 20px;
 					}
 
-footer section {background-color: #29567e;
-				z-index: -100
-				}
-
-footer h3 {color: white;}
-
-.Learn-more li {list-style: none;}
 
 
-footer a{color: #c5de62;}
-footer a:hover{color: #c5de62;}
+nav li{font-family: 'titilliumregular';
+				padding-top: 5px;
+				padding-bottom: 5px; }
+
+.navbar-brand {padding-top: 14px;
+							}
+
 
 
 .thumbnail {
@@ -37,9 +77,22 @@ footer a:hover{color: #c5de62;}
 
 }
 
+
+
 .jumbotron {padding-top: 75px;
-						padding-bottom: 75px;
-						margin: 0px;}
+						padding-bottom: 25px;
+						margin: 0px;
+						position: relative;
+						background-repeat: no-repeat;
+     				background-image: url("../img/Painting-Tips.jpg")}
+
+
+
+#book .btn-success {background-color: #92b135;
+									z-index: 50;}
+
+
+
 
 .navbar-inverse {z-index: 1030;
 								background-color: #29567e;
@@ -47,11 +100,12 @@ footer a:hover{color: #c5de62;}
 								}
 
 
-.navbar .navbar-inverse li a {color: white;}
-.navbar .navbar-inverse li a:link {color: white;}
-.navbar .navbar-inverse li a:visited {color: white;}
-.navbar .navbar-inverse li a:hover {color: black;}
-.navbar-inverse .navbar-brand {color:white}
+
+.navbar .navbar-inverse li a {color: #29567e;}
+.navbar .navbar-inverse li a:link {color: #29567e;}
+.navbar .navbar-inverse li a:visited {color: #29567e;}
+.navbar .navbar-inverse li a:hover {color: #29567e;}
+.navbar-inverse .navbar-brand {color:#29567e}
 
 .dropdown li>a {color: black;}
 
@@ -67,6 +121,93 @@ footer a:hover{color: #c5de62;}
 .container {padding-top: 40px;
 						padding-bottom: 100px;}
 
+
+.home_about h1{padding: 40px;
+							padding-left: 20px;
+							padding-right: 20px;
+							text-align: center
+								
+							}
+.home_about p{font-size: 18px;
+						padding-right: 100px;
+						padding-left: 100px;
+						padding-bottom: 40px;	
+						}
+
+
+
+
+.home_about h3 {padding-right: 100px;
+								padding-top: 12px;
+}
+
+.home_about img{
+		padding-right: 20px;
+		padding-left: 80px;
+		float: left;
+								
+							}
+
+/*.brands li{display: inline;
+					margin-right: 30px;
+					margin-bottom: 20px;
+				}
+
+.brands img{list-style: center}
+
+.brands h1{text-align: center;
+					padding-top: 50px;}
+*/
+
+footer {font-family: 'titilliumregular';
+				background-color: #29567e;
+				z-index: -100
+				}
+
+footer h3 {
+					color: white;
+					margin-left: 40px;
+					letter-spacing: .03em
+					}
+
+.two{padding-top: 20px;}
+
+.one{padding-top: 20px;}
+
+
+.one li {list-style: none;
+				}
+
+.two li {list-style: none;
+				}
+
+.three li {display: inline;
+					margin-right: 30px;
+
+					}
+
+section.one{float:left;
+						width: 50%;
+						padding-bottom: 50px;
+						padding-left: 120px;
+						}
+
+section.two{float:right;
+						width: 50%;
+						padding-bottom: 50px;
+						padding-left: 120px;}
+
+
+
+.foot-nav	{text-align: center;
+					padding: 40px;
+					}
+
+footer a{color: #c5de62;}
+footer a:hover{color: #c5de62;}
+
+
+
 @media (max-width: 691px) {
 					.nav .navbar-nav .navbar-right {display: none;} 
 					button img {float: none;
@@ -74,9 +215,48 @@ footer a:hover{color: #c5de62;}
 					button h3{font-size: 18px;
 									
 										text-align: center;}
-					.jumbotron {font-size: 18px;}}
+					.jumbotron {font-size: 18px;}
+					h1{font-size: 30px}
+					.home_about p{
+						padding-right: 30px;
+						padding-left: 30px;
+						padding-bottom: 40px;	}
+					.home_about img {vertical-align: middle;
+						padding-right: 20px;
+						padding-left: 20px;
+						float: left;}
 
-@media (max-width: 369px) {button h3{ font-size: 14px }}
+
+								
+							}
+
+
+@media (max-width: 369px) {button h3{ font-size: 14px } h1{font-size: 25px} .home_about p{
+						padding-right: 30px;
+						padding-left: 30px;
+						padding-bottom: 40px;	
+						}
+
+					.home_about img{
+						display: block;
+						clear: both;
+						padding-left: 0px;
+						padding-right: 0px;
+						float: left;}
+
+						.home_about h3 {padding-top: 30px;
+							text-align: center;
+							clear: both;
+							display: block;
+							padding-right: 0px;
+							padding-top: 12px;
+					}
+						.home_about p{display: block; text-align: center;
+							clear:both;}
+
+
+							
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) { ... }
